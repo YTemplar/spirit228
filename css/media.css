@@ -1,0 +1,44 @@
+@media (max-width: 1199.98px) {
+    #services svg {
+    width: 110px;
+    height: 110px;
+    }
+    .mac {
+        margin-left: -30px;
+    }
+}
+@media (max-width: 991.98px) {
+    .mac {
+        margin-left: -10px;
+    }
+    .mobile-btn {
+        display: flex;
+        z-index: 10;
+    }
+    .menu {
+        display: none;
+    }
+    .show-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: indigo;
+        z-index: 9;
+    }
+}
+@media (max-width: 767.98px) {
+    .mac {
+        margin-left: -5px;
+    }
+}
+@media (max-width: 575.98px) {
+    .mac {
+        margin-left: -5px;
+    }
+}
